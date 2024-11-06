@@ -1,0 +1,191 @@
+/* Global Styling */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.wrapper {
+    width: 80%;
+    margin: auto;
+    padding: 2%;
+}
+.clear-fix {
+    clear: both;
+}
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+
+/* Button Styling */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.btn:hover {
+    background-color: #2980b9;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #f8f9fa;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+}
+.logo {
+    float: left;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.menu {
+    float: right;
+}
+.menu ul {
+    list-style: none;
+}
+.menu ul li {
+    display: inline;
+    margin-left: 20px;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+.menu ul li a:hover {
+    color: #3498db;
+}
+
+/* About Section */
+.about {
+    padding: 5% 0;
+}
+.image-responsive {
+    width: 100%;
+    border-radius: 8px;
+}
+.about-title {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.about-subtitle, .about-description {
+    color: #666;
+    margin-bottom: 10px;
+}
+/* About Section - Flex Styling */
+.about .wrapper {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.about .col-2 {
+    flex: 1;
+}
+
+.about .col-2 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Anchor Tag Styling */
+a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #2980b9;
+}
+
+.project-box a, .blog-box a {
+    color: #333;
+}
+
+.project-box a:hover, .blog-box a:hover {
+    color: #3498db;
+}
+
+/* Projects Section */
+.project-list, .blog-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.project-box, .blog-box {
+    width: 22%;
+    position: relative;
+    text-align: center;
+}
+.project-box img, .blog-box img {
+    width: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+.project-box:hover img, .blog-box:hover img {
+    transform: scale(1.05);
+}
+.project-title, .blog-title {
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+/* Skills Section */
+.skills {
+    padding: 5% 0;
+}
+.skill-box {
+    margin-bottom: 15px;
+}
+.skill-title {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.skill-meter {
+    width: 100%;
+    background-color: #ddd;
+    height: 8px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.skill-meter div {
+    height: 8px;
+    border-radius: 5px;
+    background-color: #3498db;
+}
+
+/* Footer */
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+footer ul li a {
+    text-decoration: none;
+    color: #333;
+}
+footer ul li a:hover {
+    color: #3498db;
+}
